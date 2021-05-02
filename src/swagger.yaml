@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: "API de Cadastro de Produtos - teste"
-  version: "1.0.0"
-  title: "Cadastro de Produtos - teste"
+  description: "API de Cadastro de Produtos - Mais pods"
+  version: "2.0.0"
+  title: "Cadastro de Produtos"
   contact:
     email: "fabricio@veronez.dev"
 paths:
