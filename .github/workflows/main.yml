@@ -31,7 +31,7 @@ jobs:
           # Username used to log against the Docker registry
           username: ${{secrets.DOCKERHUB_USER}}
           # Password or personal access token used to log against the Docker registry
-          password: ${{github.DOCKERHUB_PWD}}
+          password: ${{secrets.DOCKERHUB_PWD}}
       
       - name: Build and push Docker images
         # You may pin to the exact commit or the version.
